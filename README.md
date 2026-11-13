@@ -50,6 +50,7 @@ export default function Form() {
   const [token, setToken] = useState(null);
   const captchaRef = useRef(null);
 
+
   const onLoad = () => {
     // this reaches out to the hCaptcha JS API and runs the
     // execute function on it. you can use other functions as
